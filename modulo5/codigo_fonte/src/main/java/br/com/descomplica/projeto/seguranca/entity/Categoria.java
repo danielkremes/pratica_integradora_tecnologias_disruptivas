@@ -51,4 +51,8 @@ public class Categoria {
 		this.produtoList = produtoList;
 	}
 
+	public void showProdutoList() {
+		return getProdutoList();
+	} 
+
 }
